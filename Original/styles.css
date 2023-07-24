@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  /*overflow: hidden; (Quita la barra de desplazamiento)*/
+}
+button {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.header{
+	padding: 0.5em;
+	min-height: 1.2em;
+	background-color: aqua;
+}
+.header p{
+	display: block;
+	position: absolute;
+	margin: 0;
+	left: 40%;
+}
+.header button{
+	display: block;
+	position: absolute;
+	margin: 0;
+	right: 16%;
+	width: 15%;
+	height: 1.8em;
+	border-radius: 1em;
+	margin: -0.2em;
+	background: white;
+	border-color: white;;
+	border-style: solid;
+	cursor:pointer; cursor: hand;
+}
+/*Lo de arriba esta bien*/
+#navbar{
+	overflow: hidden;
+	background-color: white;
+}
+#btns a{
+	float: right;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 2em;
+	text-decoration: none;
+	cursor:pointer; cursor: hand;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 4.5em;
+}
+#frontimg img{
+	width: 100%;
+}
+
+#icon img{
+	float:left;
+	width: 20%;
+	padding: 1em 0 1em 1.5em;
+	cursor:pointer; cursor: hand;
+}
+#buscar img{
+	height: 1.5em;
+}
+#carrito img{
+	height: 1.5em;
+}
+#usuario img{
+	height: 1.5em;
+}
+#carrito a{
+	padding:-0.5em;
+}
